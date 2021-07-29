@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://db-instance-maria.ctmu1a9abtl6.ap-northeast-2.rds.amazonaws.com:3306/teamvz?useUnicode=true&characterEncoding=utf-8
+    username: varzac
+    password: qwer1234!
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
